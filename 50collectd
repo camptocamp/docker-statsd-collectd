@@ -1,3 +1,0 @@
-Package: collectd collectd-core collectd-utils libcollectdclient1 collectd-dev libcollectdclient-dev collectd-dbg
-Pin: release o=Camptocamp
-Pin-Priority: 1100
