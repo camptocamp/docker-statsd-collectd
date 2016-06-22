@@ -8,7 +8,7 @@ RUN apt-get update \
     libjemalloc1 \
     libcurl3-gnutls \
     libgcrypt20 \
-    libprotobuf-c1 \
+    libriemann-client0 \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
