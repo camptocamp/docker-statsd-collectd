@@ -1,4 +1,4 @@
-FROM camptocamp/collectd:0.1.1
+FROM camptocamp/collectd:latest
 
 MAINTAINER Marc Fournier <marc.fournier@camptocamp.com>
 
@@ -6,9 +6,6 @@ RUN apt-get update \
  && apt-get -y upgrade \
  && apt-get -y --no-install-suggests --no-install-recommends install \
     libjemalloc1 \
-    libcurl3-gnutls \
-    libgcrypt20 \
-    libriemann-client0 \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
