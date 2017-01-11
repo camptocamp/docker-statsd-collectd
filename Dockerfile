@@ -1,4 +1,4 @@
-FROM camptocamp/collectd:0.1.3
+FROM camptocamp/collectd:v0.2.2
 
 MAINTAINER Marc Fournier <marc.fournier@camptocamp.com>
 
